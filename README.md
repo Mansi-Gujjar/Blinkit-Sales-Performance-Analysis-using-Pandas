@@ -9,12 +9,12 @@ An end-to-end data analysis project focusing on retail operations and sales perf
 ---
 
 ## 📌 Project Overview
-The objective of this analysis is to identify key sales trends and efficiency metrics across various outlet types and locations. By processing over **8,500 records**, this project provides a clear picture of how item attributes (like fat content and visibility) and store characteristics (like size and location) influence total revenue.
+The objective of this analysis is to identify key sales trends and efficiency metrics across various outlet types and locations. By processing over **8,500 records**, this project provides a clear picture of how item attributes and store characteristics influence total revenue.
 
 ---
 
 ## 📊 Key Insights (KPIs)
-> **Summary of findings derived from `blinkit.ipynb`**
+> **Summary of findings derived from the analysis**
 
 | Total Sales | Avg Sales | Items Sold | Avg Rating |
 | :---: | :---: | :---: | :---: |
@@ -47,7 +47,7 @@ The analysis follows a professional data science lifecycle using Pandas:
 
 ### 1. Data Cleaning 🧼
 * **Standardization:** Unified `Item Fat Content` labels (merged 'LF', 'low fat', and 'reg' into 'Low Fat' and 'Regular').
-* **Validation:** Handled missing values in `Item Weight` and checked for data type consistency.
+* **Validation:** Handled missing values and verified data type consistency across all 12 columns.
 
 ### 2. KPI Calculation 📈
 * **Aggregation:** Leveraged `.sum()`, `.mean()`, and `.count()` to derive global business metrics.
@@ -68,4 +68,4 @@ The analysis follows a professional data science lifecycle using Pandas:
 ## 🚀 How to Use
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/your-username/blinkit-sales-pandas-analysis.git](https://github.com/your-username/blinkit-sales-pandas-analysis.git)
+   git clone [https://github.com/Mansi-Gujjar/blinkit-sales-pandas-analysis.git](https://github.com/Mansi-Gujjar/blinkit-sales-pandas-analysis.git)
